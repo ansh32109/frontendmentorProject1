@@ -40,6 +40,7 @@ body{
     margin-bottom: 1.5rem;
     max-width: 60%;
     position: relative;
+    object-fit: fill;
 }
 
 .mainHeader{
@@ -82,6 +83,8 @@ ul li{
     margin-bottom: 1rem;
     font-family: "Young Serif", sans-serif;
     margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .li-container{
@@ -89,7 +92,41 @@ ul li{
 }
 
 .inCont{
-    border-bottom: 1px solid hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+}
+
+ol li{
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.table-container{
+    max-width: 100%;
+    /* padding-right: 1rem; */
+}
+
+td{
+    padding: 0.5rem 5rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    text-align: left;
+    max-width: 50%;
+}
+
+td:first-child{
+    text-align: left;
+    max-width: 100%;
+}
+
+td:last-child{
+    text-align: right;
+    max-width: 100%;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+tr:last-child td{
+    border-bottom: none;
 }
